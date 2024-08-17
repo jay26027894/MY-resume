@@ -76,6 +76,10 @@ nav .right ul li a:hover {
     margin: 40px auto;
     padding: 0 20px;
 }
+.experience-item, .project {
+    margin-bottom: 20px; 
+    margin-top: 20px;}
+    
 main hr {
     background-color: aqua;
     border: 0;
@@ -96,6 +100,10 @@ main hr {
 }
 .soft-skills ul, .technical-skills ul {
     list-style: none;
+}
+.soft-skills ul:hover, .technical-skills ul:hover {
+    color: aqua;
+    font-size: large;
 }
 .footer {
     background-color: rgb(16, 15, 15);
