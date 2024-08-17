@@ -4,46 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
     <header>
         <nav>
-            <div class="left"> Portfolio</div>
+            <div class="left">Portfolio</div>
             <div class="right">
                 <ul>
-                      <li> <a href="">Home</a> </li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li><a id="home-link" href="#firstsection">Home</a></li>
+                    <li><a id="about-link" href="#secondsection">About</a></li>
+                    <li><a id="projects-link" href="#fourthsection">Projects</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <section class="firstsection">
+        <section id="firstsection" class="firstsection">
             <div class="leftsection">
                 Hi, My name is <span class="purple">Jay</span>
                 <div>and I am a</div>
                 <div class="purple"></div>
                 <span id="element"></span>
-               <div class="buttons">
-    <a href="Resume.pdf.pdf" download>
-        <button class="btn">Download resume</button>
-    </a>
-</div>
+                <div class="buttons">
+                    <button class="btn">Download resume</button>
+                </div>
             </div>
             <div class="rightsection">
                 <img src="bg.png.png" alt="">
             </div>
         </section>
-        <section class="secondsection">
+        <section id="secondsection" class="secondsection">
             <hr>
             <h1>About</h1>
             <span class="textgray">
                 Hello, I'm Jay Bontawar, currently pursuing BTech in Computer Science with a specialization in IoT. My passion lies in web development, where I enjoy creating meaningful and interactive digital experiences. Beyond coding, I find joy in watching movies and expressing my thoughts through poetry. Previously, I served as Cultural Incharge in Nexus Forum of DIC Dept, and I currently hold the position of Vice President in Nexus Forum.
             </span>
         </section>
-        <section class="thirdsection">
+        <section id="thirdsection" class="thirdsection">
             <hr>
             <h1>Skills</h1>
             <div class="skills-container">
@@ -70,70 +68,100 @@
                     </ul>
                 </div>
             </div>
-            
         </section>
-        <section class="fourthsection">
+        <section id="fourthsection" class="fourthsection">
             <hr>
             <h1>Experience</h1>
-            <div class="experience-item">
-                <h2>Cultural Incharge, Nexus Forum, DIC Dept</h2>
-                <p class="experience-details">August 23 - July 24</p>
-                <p>As the Cultural Incharge of Nexus Forum, I developed essential skills such as effective management, strong leadership, adept problem-solving, and notably, the art of fostering cohesive teamwork.</p>
-            </div>
-            <div class="experience-item">
-                <h2>Vice President, Nexus Forum</h2>
-                <p class="experience-details">July 24 - Present</p>
-                <p>Highlight your responsibilities and contributions as Vice President.</p>
-            </div>
+
+<div class="experience-item">
+    <h2>Vice President, Nexus Forum, DIC Department</h2>
+    <p class="experience-details">July 2024 - Present</p>
+    <p>Leading Nexus Forum, ensuring communication and coordination. Overseeing planning and execution of events. Representing the forum in inter-college meetings.</p>
+</div>
+
+<div class="experience-item">
+    <h2>Co-Cultural Secretary, Nexus Forum, DIC Department</h2>
+    <p class="experience-details">August 2023 - July 2024</p>
+    <p>Assisted in planning and organizing cultural events. Collaborated on events across colleges. Managed logistics and communication.</p>
+</div>
+
+<div class="experience-item">
+    <h2>Cultural Secretary, Faith Forum</h2>
+    <p class="experience-details">December 2022 - July 2023</p>
+    <p>Organized and managed cultural events. Coordinated with teams for event execution. Developed promotional materials.</p>
+</div>
+
         </section>
-        <section class="fifthsection">
+        <section id="fifthsection" class="fifthsection">
             <hr>
             <h1>Projects</h1>
-            <div class="project">
-                <h2>1. Netflix Clone</h2>
-                <p> I made it</p>
-                <ul class="project-skills">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                </ul>
-            </div>
-            <div class="project">
-                <h2>2. Spotify Clone</h2>
-                <p>Description of the project and the role you played.</p>
-                <ul class="project-skills">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-            
-            
+
+<div class="project">
+    <h2>1. Dish Delight</h2>
+    <p>Dynamic recipe website categorized by meal type.</p>
+    <ul class="project-skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <p>Features: Responsive design, interactive UI, search functionality, detailed recipe modals.</p>
+</div>
+
+<div class="project">
+    <h2>2. Portfolio Website</h2>
+    <p>Personal portfolio to showcase projects and skills.</p>
+    <ul class="project-skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <p>Features: Interactive sections, responsive design, user-friendly interface.</p>
+</div>
+
+<div class="project">
+    <h2>3. Spotify Clone</h2>
+    <p>Functional Spotify clone to demonstrate frontend skills.</p>
+    <ul class="project-skills">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <p>Features: Responsive design, audio playback, navigation and playlist features.</p>
+</div>
+
+<div class="project">
+    <h2>4. Netflix Clone</h2>
+    <p>Responsive Netflix clone to practice frontend development.</p>
+    <ul class="project-skills">
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+    <p>Features: User-friendly interface with Flexbox and Grid, hover effects.</p>
+</div>
+
         </section>
-       
-        
     </main>
     <footer>
         <div class="footer">
             <div class="footerfirst">
                 <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
+                    <li><a href="#firstsection">Home</a></li>
+                    <li><a href="#secondsection">About</a></li>
+                    <li><a href="#fifthsection">Projects</a></li>
                 </ul>
-
             </div>
             <div class="footersecond">
                 <ul>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Instagram</a></li>
-                    <li><a href="">Linkdein</a></li>
+                    <li><a href="mailto:jay534050@gmail.com?subject=Contact%20Request">Contact</a></li>
+                    <li><a href="https://x.com/JBontawar?t=2-S6RmxvFdNdX35WubVvTA&s=09">Twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/jay-bontawar-b814a224a/">LinkedIn</a></li>
                 </ul>
             </div>
             <div class="footerthird">
                 <ul>
-                    <li><a href="">Github</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Home</a></li>
+                    <li><a href="https://github.com/jay26027894">Github</a></li>
+                    <li><a href="#firstsection">Home</a></li>
+                    <li><a href="#firstsection">Home</a></li>
                 </ul>
             </div>
             <div class="footerfourth"></div>
@@ -141,7 +169,6 @@
         <div class="textcenter">
             www.jbportfolio.com | All rights reserved
         </div>
-
     </footer>
     <section class="thank-you">
         <div class="container">
@@ -156,6 +183,27 @@
           strings: ['Web developer','Web designer'],
           typeSpeed: 60,
         });
-      </script>
+    </script>
+    <script>
+        function scrollToSection(sectionId) {
+            document.querySelector(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+        document.getElementById('home-link').addEventListener('click', function(event) {
+            event.preventDefault();
+            scrollToSection('#firstsection');
+        });
+
+        document.getElementById('about-link').addEventListener('click', function(event) {
+            event.preventDefault();
+            scrollToSection('#secondsection');
+        });
+
+        document.getElementById('projects-link').addEventListener('click', function(event) {
+            event.preventDefault();
+            scrollToSection('#fourthsection');
+        });
+    </script>
 </body>
 </html>
