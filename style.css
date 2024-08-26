@@ -20,6 +20,15 @@ nav {
     margin: auto;
     padding: 0 20px;
 }
+.btn{
+    color: white;
+    text-decoration: none;
+}
+.btn a{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
 nav .left {
     font-size: 1.5rem;
 }
